@@ -92,3 +92,9 @@ Source: "[Controlling garbage collection and heap growth to reduce the execution
 
 ## Summary
 In conclusion, JVM’s garbage collection is highly effective for most applications, especially in reducing developer effort and preventing memory leaks. It’s great for handling complex, large-scale software without requiring manual memory management like in C++. However, compared to languages like Go, which has more predictable and faster garbage collection, JVM can struggle in scenarios that need real-time performance, as it may introduce delays during memory cleanup that could slow things down at critical moments.
+
+## References
+"[Analysis of Garbage Collection Algorithms and Memory Management in Java](https://ieeexplore.ieee.org/abstract/document/8756844)"
+"[Comparison of garbage collectors in Java programming language](https://ieeexplore.ieee.org/abstract/document/8400277)"
+"[Analysis and Optimizations of Java Full Garbage Collection](https://dl.acm.org/doi/abs/10.1145/3265723.3265735)"
+"[Controlling garbage collection and heap growth to reduce the execution time of Java applications](https://dl.acm.org/doi/abs/10.1145/1152649.1152652)"
